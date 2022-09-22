@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+section div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 60px;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+input {
+    min-height: 50px;
+    border: solid 1px black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">7
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <h1>calculadora em desenvolvimento...</h1>
+        <input type="text">
+        <div>
+            <button onclick="valorEscolhido('off')">off</button>
+            <button onclick="valorEscolhido('raiz')">raiz</button>
+            <button onclick="valorEscolhido('porcentagem')">porcentagem</button>
+            <button onclick="valorEscolhido('divisao')">divisao</button>
+        </div>
+        <div>
+            <button onclick="valorEscolhido('7')">7</button>
+            <button onclick="valorEscolhido('8')">8</button>
+            <button onclick="valorEscolhido('9')">9</button>
+            <button onclick="valorEscolhido('multiplicar')">Multiplicar</button>
+        </div>
+        <div>
+            <button onclick="valorEscolhido('4')">4</button>
+            <button onclick="valorEscolhido('5')">5</button>
+            <button onclick="valorEscolhido('6')">6</button>
+            <button onclick="valorEscolhido('diminuir')">Diminuir</button>
+        </div>
+        <div>
+            <button onclick="valorEscolhido('1')">1</button>
+            <button onclick="valorEscolhido('2')">2</button>
+            <button onclick="valorEscolhido('3')">3</button>
+            <button onclick="valorEscolhido('somar')">somar</button>
+        </div>
+    </main>
+    <section>
+        <h1>Calculadora funcional</h1>
+        <div>
+            <input type="text" placeholder="Digite o primeiro numero" id="num1">
+            <input type="text" placeholder="Digite o segundo numero" id="num2">
+            <input type="text" placeholder= "Digite a operação + - / * " id="oper">
+            <button class="mybutton"> Calcular </button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
