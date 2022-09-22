@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
