@@ -1,5 +1,6 @@
 //high order function é uma função que recebe outra função como parâmetro 
 //JS usa o paradigma funcional, paradigma voltado a função
+//famosa callback
 
 //HOF
 function calcular(a,b, operacao) {
